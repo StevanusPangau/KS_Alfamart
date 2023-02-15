@@ -1,0 +1,61 @@
+# main.py
+1. Buatlah sebuah fungsi untuk mencari bilangan prima yang ada pada range bilangan tertentu
+   input  : nilai awal, nilai akhir
+   output : list bilangan prima
+
+
+2. Buatlah fungsi untuk mencari bilangan ganjil pada range bilangan tertentu
+   input  : nilai awal, nilai akhir
+   output : list bilangan ganjil
+
+
+3. Buatlah fungsi untuk mencari bilangan prima ganjil pada range bilangan tertentu, gunakan fungsi dari
+   soal pertama dan kedua untuk membuat fungsi ini
+   input  : nilai awal, nilai akhir
+   output : list bilangan prima ganjil
+
+
+4. Buatlah fungsi untuk membalikkan karakter pada string
+   input  : string
+   output : string yang telah dibalik
+   Contoh : input -> "salatiga", output -> "agitalas"
+
+
+5. Buatlah fungsi untuk mengecek apakah suatu string adalah palindrome/tidak, boleh menggunakan fungsi dari soal
+   nomor 4 untuk mempermudah dalam membuat fungsi
+   input  : string
+   output : boolean
+   Contoh : "kasur rusak"
+
+
+6. Buatlah fungsi untuk mencari selisih nilai tertinggi dan terendah bilangan pada sebuah list
+   input  : list bilangan
+   output : selisih bilangan tertinggi & terendah
+
+
+7. Buatlah fungsi untuk menghitung jumlah huruf vokal dan konsonan yang ada pada sebuah string
+   input  : string
+   output : list/tuple jumlah huruf vokal dan konsonan
+
+
+8. Buatlah fungsi untuk mencari bilangan tertentu beserta indexnya pada sebuah list
+   input  : list bilangan, bilangan yang dicari
+   output : dictionary {'status': boolean status hasil pencarian, 'index': index element}
+
+
+9. Buatlah fungsi aritmatika dengan 3 parameter (operator, bilangan 1, bilangan 2) dengan default value bilangan
+   bernilai 1 yang dapat melakukan operasi penjumlahan, pengurangan, perkalian, dan pembagian
+   Pada fungsi tersebut gunakan exception untuk memberi tahu user jika salah ketika memberikan input operator,
+   terdapat zero division error, dsb
+   input  : operator (str), bilangan 1, (int) bilangan 2 (int)
+   output : hasil operasi aritmatika
+
+
+# volume.py
+10. Buatlah modul bernama volume.py, buat fungsi untuk menghitung volume
+   kubus, balok, limas segi 4, dan prisma segi 3. Kemudian panggil fungsi" tersebut
+   pada main.py
+
+
+Kumpulkan paling lambat tgl 14 Februari 2023 pukul 17.00 dalam bentuk zip
+Nama file Tugas2_NIM.zip
