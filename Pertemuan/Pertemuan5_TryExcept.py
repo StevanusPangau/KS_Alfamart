@@ -61,3 +61,5 @@ if angka == 0:
     raise Exception("Variable tidak boleh bernilai 0")
 else:
     print("Nilai anda : ", str(angka))
+
+# .
