@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="//cdn.webix.com/edge/webix.css" type="text/css" />
+    <script src="//cdn.webix.com/edge/webix.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!-- untuk ngerun harus pake live server -->
+    <script type="text/javascript">
+      webix.ui({
+        rows: [
+          {
+            view: 'datatable',
+            autoconfig: true,
+            editable: true,
+            data: webix.ajax().get('http://127.0.0.1:5000/movies'),
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
