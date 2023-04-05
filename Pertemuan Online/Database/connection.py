@@ -8,14 +8,15 @@ user = "postgres"
 password = "FwF6qfEA5AzlztzG"
 
 # pakai /cloudsql/{instance_name} jika sudah ingin di deploy
-param = f"host='/cloudsql/{instance_name}' port={port} dbname='{db}' user='{user}' password='{password}'"
-# conn = psycopg2.connect(param)
+# param = f"host='/cloudsql/{instance_name}' port={port} dbname='{db}' user='{user}' password='{password}'"
+param = f"host='{host}' port={port} dbname='{db}' user='{user}' password='{password}'"
+conn = psycopg2.connect(param)
 
-# query = "select current_date"
-# curs = conn.cursor()
-# curs.execute(query)
-# data = curs.fetchall()
-# print(data)
+query = "select current_date"
+curs = conn.cursor()
+curs.execute(query)
+data = curs.fetchall()
+print(data)
 
 # function ini tinggal di panggil ke app.py lalu kirim param querynya tapi janggan lupa masukan dalam try/except
 

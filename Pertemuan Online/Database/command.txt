@@ -1,3 +1,6 @@
-cloud-sql-proxy.x64 sat-kapita-selekta-basia-southeast2training-kapita-selekta -p 5432
+salah -> cloud-sql-proxy.x64 sat-kapita-selekta-basia-southeast2training-kapita-selekta -p 5432
+benar -> cloud-sql-proxy.x64 sat-kapita-selekta-b:asia-southeast2:training-kapita-selekta -p 5432
 
 postgres FwF6qfEA5AzlztzG
+
+untuk auth : gcloud auth application-default login

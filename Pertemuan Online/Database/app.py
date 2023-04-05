@@ -13,5 +13,5 @@ class GetPrice:
 app = falcon.App()
 
 getPrice = GetPrice()
-
+print(getPrice)
 app.add_route('/getPrice', getPrice)
